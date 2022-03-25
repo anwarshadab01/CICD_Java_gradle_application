@@ -7,7 +7,7 @@ env:
   DATREE_TOKEN: ${{ secrets.DATREE_TOKEN }} 
 jobs:
   call-workflow-passing-data:
-    uses: devops-max/CICD_Java_gradle_application/.github/workflows/reusable.yml@main
+    uses: anwarshadab01/CICD_Java_gradle_application/.github/workflows/reusable.yml@main
     with:
       run: self-hosted
   image-build:
